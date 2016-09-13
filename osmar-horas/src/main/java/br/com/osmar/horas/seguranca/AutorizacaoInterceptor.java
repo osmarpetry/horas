@@ -17,9 +17,8 @@ public class AutorizacaoInterceptor {
 	private Result result;
 	private ControllerMethod method;
 
-	public AutorizacaoInterceptor() {
-	}
-
+	public AutorizacaoInterceptor() {}
+	
 	@Inject
 	public AutorizacaoInterceptor(UsuarioLogado usuarioLogado, Result result, ControllerMethod method) {
 		this.usuarioLogado = usuarioLogado;

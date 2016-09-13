@@ -1,0 +1,5 @@
+package br.com.osmar.horas.daos;
+
+public class HoraLancadaDAO {
+
+}

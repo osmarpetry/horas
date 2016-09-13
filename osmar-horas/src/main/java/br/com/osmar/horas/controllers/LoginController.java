@@ -19,11 +19,11 @@ public class LoginController {
 	private Result result;
 	private Validator validator;
 
-	public LoginController() {
-	}
+	public LoginController() {}
 
 	@Inject
-	public LoginController(UsuarioDAO usuarioDAO, UsuarioLogado usuarioLogado, Result result, Validator validator) {
+	public LoginController(UsuarioDAO usuarioDAO, UsuarioLogado usuarioLogado, 
+			Result result, Validator validator) {
 		this.usuarioDAO = usuarioDAO;
 		this.usuarioLogado = usuarioLogado;
 		this.result = result;

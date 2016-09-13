@@ -1,0 +1,23 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib tagdir="/WEB-INF/tags" prefix="osmar" %>
+<c:import url="/WEB-INF/jsp/header.jsp"/>
+
+<form action="${linkTo[HoraLancadaController].adiciona(null) }" method="post">
+	<osmar:validationMessage name="login_invalido"/>
+	
+	<label for="data">Data:</label>
+	<input type="text" id="data" name="horaLancada.data" class="form-control"/>
+	<osmar:validationMessage name="horaLancada.data"/>
+	
+	<label for="horaInicial">Data:</label>
+	<input type="text" id="horaInicial" name="horaLancada.horaInicial" class="form-control"/>
+	<osmar:validationMessage name="horaLancada.data"/>
+	
+	<label for="horaFinal">Data:</label>
+	<input type="text" id="horaFinal" name="horaLancada.data" class="form-control"/>
+	<osmar:validationMessage name="horaLancada.data"/>
+	
+	<input type="submit" value="Autenticar" class="btn"/>
+</form>
+
+<c:import url="/WEB-INF/jsp/footer.jsp"/>

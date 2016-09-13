@@ -1,0 +1,17 @@
+package br.com.osmar.horas.daos;
+
+import br.com.osmar.horas.modelos.HoraLancada;
+
+public class HoraLancadaDAO {
+
+	public List<HoraLancada> lista() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void adiciona(HoraLancada horaLancada) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

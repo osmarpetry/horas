@@ -1,0 +1,28 @@
+package br.com.osmar.horas.daos;
+
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
+
+import br.com.osmar.horas.modelos.HoraLancada;
+
+public class HoraLancadaDAO {
+
+	private EntityManager manager;
+
+	public List<HoraLancada> lista() {
+		return null;
+	}
+	@Inject
+	public HoraLancadaDAO(EntityManager manager){
+		this.manager = manager;
+	}
+
+	public HoraLancadaDAO(){}
+
+	public void adiciona(HoraLancada horaLancada) {
+
+	}
+
+}

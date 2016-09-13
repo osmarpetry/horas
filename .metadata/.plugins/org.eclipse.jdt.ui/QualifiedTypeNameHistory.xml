@@ -19,17 +19,17 @@
 <fullyQualifiedTypeName name="javax.enterprise.inject.Produces"/>
 <fullyQualifiedTypeName name="javax.enterprise.inject.Disposes"/>
 <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Controller"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Result"/>
 <fullyQualifiedTypeName name="br.com.osmar.horas.daos.UsuarioDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.validator.Validator"/>
-<fullyQualifiedTypeName name="javax.inject.Inject"/>
-<fullyQualifiedTypeName name="br.com.caelum.vraptor.interceptor.IncludeParameters"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Post"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
 <fullyQualifiedTypeName name="br.com.osmar.horas.modelos.Usuario"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="br.com.caelum.vraptor.interceptor.IncludeParameters"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
 </qualifiedTypeNameHistroy>

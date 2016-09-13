@@ -1,0 +1,7 @@
+package br.com.osmar.horas.controllers;
+
+@Controller
+public class HoraLancadaController {
+	
+	public HoraLancadaController
+}

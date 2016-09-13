@@ -1,0 +1,33 @@
+package br.com.osmar.horas.controllers;
+
+import javax.inject.Inject;
+
+import br.com.caelum.vraptor.Controller;
+import br.com.caelum.vraptor.Result;
+import br.com.caelum.vraptor.validator.Validator;
+import br.com.osmar.horas.dao.HoraLancadaDao;
+import br.com.osmar.horas.seguranca.UsuarioLogado;
+
+@Controller
+public class HoraLancadaController {
+
+	private HoraLancadaDao dao;
+	private Validator validator;
+	private Result result;
+	private UsuarioLogado usuarioLogado;
+
+	// meuDaoParaPersistencia, paraValidacao, controlarResultQueVaiParaUser
+	@Inject //Usando CDI para injeção de dep.
+	public HoraLancadaController(HoraLancadaDao dao, Validator validator, 
+			Result result, UsuarioLogado usuarioLogado) {
+		this.dao = dao;
+		this.validator = validator;
+		this.result = result;
+		this.usuarioLogado = usuarioLogado;
+
+	}
+	//Por causa do @Inject
+	public HoraLancadaController(){}
+	public form(){}
+	public void adiciona(HoraLancada){}
+}
