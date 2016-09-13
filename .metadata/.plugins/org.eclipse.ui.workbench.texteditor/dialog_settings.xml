@@ -9,6 +9,7 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="alura"/>
+			<item value="hibernate.hbm2ddl.auto"/>
 			<item value="your.group"/>
 			<item value="javassist"/>
 		</list>

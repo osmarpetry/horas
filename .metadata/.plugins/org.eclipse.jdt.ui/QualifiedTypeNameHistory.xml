@@ -31,4 +31,5 @@
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Post"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
 <fullyQualifiedTypeName name="br.com.osmar.horas.modelos.Usuario"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
 </qualifiedTypeNameHistroy>

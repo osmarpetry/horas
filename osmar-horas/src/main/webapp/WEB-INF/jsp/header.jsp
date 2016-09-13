@@ -16,6 +16,12 @@
 					Cadastradas</a></li>
 			<li><a href="<c:url value='/horaLancada/form' />">Cadastrar
 					Horas</a></li>
+			<c:if test="${usuarioLogado.logado}">
+				<li><a href="${linkTo[LoginController].desloga() }">Deslogar</a>
+			</c:if>
+			<c:if test="${!usuarioLogado.logado}">
+				<li><a href="${linkTo[LoginController].form() }">Autenticar</a>
+			</c:if>
 		</ul>
 	</nav>
 	<div class="container">

@@ -6,7 +6,7 @@
 		name="usuario.nome" class="form-control" value="${usuario.nome}" />
 	<osmar:validationMessage name="usuario.nome" />
 
-	<label for="email">E-mail:</label> <input type="text" id="email"
+	<label for="email">E-mail:</label> <input type="email" id="email"
 		name="usuario.email" class="form-control" value="${usuario.email}" />
 	<osmar:validationMessage name="usuario.email" />
 
