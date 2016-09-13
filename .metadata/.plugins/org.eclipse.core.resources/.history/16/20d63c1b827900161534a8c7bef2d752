@@ -1,0 +1,8 @@
+package br.com.osmar.horas.controllers;
+
+@Controller
+public class IndexController {
+	@Path("/")
+	public void index() {
+	}
+}

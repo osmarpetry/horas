@@ -1,0 +1,22 @@
+package br.com.osmar.horas.modelos;
+@Entity
+public class Usuario {
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private int id;
+
+    @NotEmpty
+    private String nome;
+
+    @NotEmpty
+    private String login;
+
+    @NotEmpty
+    private String senha;
+
+    @NotEmpty
+    @Email
+    private String email;
+
+    // getters e setters
+}

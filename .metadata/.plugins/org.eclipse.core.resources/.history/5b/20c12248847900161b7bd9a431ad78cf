@@ -1,0 +1,35 @@
+package br.com.osmar.horas.controllers;
+
+@Controller
+public class UsuarioController {
+	private Result result;
+
+	private UsuarioDAO usuarioDAO;
+
+	private Validator validator;
+
+	public UsuarioController() {
+	}
+
+	@Inject
+	public UsuarioController(Result result, UsuarioDAO usuarioDAO, Validator validator) {
+		this.result = result;
+		this.usuarioDAO = usuarioDAO;
+		this.validator = validator;
+	}
+
+	public void form() {
+	}
+
+	@IncludeParameters
+	@Post
+	public void adiciona(@Valid Usuario usuario) {
+		validator.onErrorRedirectTo(this).form();
+		usuarioDAO.adiciona(usuario);
+		result.redirectTo(this).lista();
+	}
+
+	public void lista() {
+		result.include("usuarios", usuarioDAO.lista());
+	}
+}

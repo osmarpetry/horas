@@ -1,0 +1,14 @@
+@ApplicationScoped
+public class EntityManagerProducer{
+    private static EntityManagerFactory factory = 
+        Persistence.createEntityManagerFactory("default");
+
+    @Produces @RequestScoped   
+    public EntityManager getEntityManager(){
+        return factory.createEntityManager();
+    }
+
+    public void close(@Disposes EntityManager manager){
+        manager.close();
+    }
+}
