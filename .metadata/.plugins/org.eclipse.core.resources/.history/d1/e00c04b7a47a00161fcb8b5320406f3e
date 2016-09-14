@@ -1,0 +1,12 @@
+package br.com.osmar.horas.modelo;
+
+import br.com.osmar.horas.modelos.Usuario;
+
+public class RelatorioHoras {
+
+	private Horas horas;
+
+	public RelatorioHoras(List<HorasLancadas> horas){
+		this.horas = horas;
+	}
+}

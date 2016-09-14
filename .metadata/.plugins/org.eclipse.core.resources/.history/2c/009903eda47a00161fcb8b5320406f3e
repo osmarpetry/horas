@@ -1,0 +1,10 @@
+package br.com.osmar.horas.modelos;
+
+import java.util.List;
+
+public class RelatorioHoras {
+
+
+	public RelatorioHoras(List<HoraLancada> horas){
+	}
+}

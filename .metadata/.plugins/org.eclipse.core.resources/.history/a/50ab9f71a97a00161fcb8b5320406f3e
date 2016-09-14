@@ -1,0 +1,8 @@
+package br.com.osmar.horas.modelos;
+
+public class HorasPorDia {
+
+	public HorasPorDia(double horasNormais, double horasExtras, calendar data){
+		
+	}
+}

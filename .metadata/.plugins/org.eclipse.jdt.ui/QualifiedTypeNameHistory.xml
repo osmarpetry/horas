@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.Pattern"/>
 <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
 <fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Path"/>
@@ -25,18 +24,22 @@
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.validator.Validator"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Post"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
-<fullyQualifiedTypeName name="br.com.osmar.horas.modelos.Usuario"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.interceptor.IncludeParameters"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
-<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="br.com.osmar.horas.modelos.HoraLancada"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+<fullyQualifiedTypeName name="br.com.osmar.horas.modelos.Usuario"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>

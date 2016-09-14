@@ -1,0 +1,34 @@
+package br.com.osmar.horas.modelos;
+
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import org.junit.Test;
+
+import org.junit.Assert;
+
+public class RelatorioHorasTest {
+
+	@Test
+	public void CalculaRelatorioQuandoDatasSaoIguais() {
+		// 22-fev-2016
+		Calendar data = new GregorianCalendar(2016, 1, 22);
+		// 10am até 06pm
+		HoraLancada registroaHora1 = novaHoraLancada("10:00", "18:00", data);
+		// 06pm até 10pm
+		HoraLancada registroaHora2 = novaHoraLancada("18:00", "22:00", data);
+		RelatorioHoras relatorio = new RelatorioHoras(Arrays.asList(registroaHora1,registroaHora2));
+		
+		List<HorasPorDia>
+		Assert.assertEquals(1, horasPorDia.size());
+	}
+
+	private HoraLancada novaHoraLancada(String horaInicial, String horaFinal, Calendar data) {
+		HoraLancada hora = new HoraLancada();
+		hora.setData(data);
+		hora.setHoraInicial(horaInicial);
+		hora.setHoraFinal(horaFinal);
+		return hora;
+	}
+}

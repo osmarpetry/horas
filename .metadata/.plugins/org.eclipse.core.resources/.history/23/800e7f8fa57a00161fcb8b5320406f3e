@@ -1,0 +1,13 @@
+package br.com.osmar.horas.modelos;
+
+import java.util.List;
+
+public class RelatorioHoras {
+
+	private List<HoraLancada> horas;
+	private List<HorasPordia> horasPorDia = new ArrayList<>();
+
+	public RelatorioHoras(List<HoraLancada> horas){
+		this.horas = horas;
+	}
+}

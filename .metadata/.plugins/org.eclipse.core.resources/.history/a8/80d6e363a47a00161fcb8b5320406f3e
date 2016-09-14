@@ -1,0 +1,8 @@
+package br.com.osmar.horas.modelo;
+
+public class RelatorioHoras {
+
+	public RelatorioHoras(Usuario usuario){
+		
+	}
+}
