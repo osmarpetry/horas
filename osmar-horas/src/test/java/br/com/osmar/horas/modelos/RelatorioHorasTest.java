@@ -18,17 +18,14 @@ public class RelatorioHorasTest {
 		// 10am até 06pm
 		HoraLancada registroHora1 = novaHoraLancada("10:00", "18:00", data);
 		// 06pm até 10pm
-		HoraLancada registroHora2 = novaHoraLancada("18:00", "22:00", data);
+		HoraLancada registroHora2 = novaHoraLancada("18:00", "20:00", data);
 		RelatorioHoras relatorio = new RelatorioHoras(Arrays.asList(registroHora1,registroHora2));
 		
-		//Vou pegar os dois registroHora, pegar as horas de cada e somar.
-		List<HorasPorDia> horasPorDia = relatorio.getHorasPorDia();
-
-		Assert.assertEquals(1, horasPorDia.size());
-		HorasPorDia dia = horasPorDia.get(0);
-		
-		Assert.assertEquals(8.0, dia.getHorasNormais(), 0.01);
-		Assert.assertEquals(4.0, dia.getHorasExtras(), 0.01);
+        HorasPorDia horasPorDia = relatorio.getHorasPorDia().get(0);
+        Assert.assertEquals(1, relatorio.getHorasPorDia().size());
+        Assert.assertEquals(8.0, horasPorDia.getHorasNormais(), 0.001);
+        Assert.assertEquals(2.0, horasPorDia.getHorasExtras(), 0.001);
+        Assert.assertEquals(data, horasPorDia.getData());
 		
 	}
 	
@@ -47,14 +44,17 @@ public class RelatorioHorasTest {
 		//Vou pegar os dois registroHora, pegar as horas de cada e somar.
 		List<HorasPorDia> horasPorDia = relatorio.getHorasPorDia();
 
-		Assert.assertEquals(2, horasPorDia.size());
 		HorasPorDia dia1 = horasPorDia.get(0);
-		Assert.assertEquals(8.0, dia1.getHorasNormais(), 0.01);
-		Assert.assertEquals(0.0, dia1.getHorasExtras(), 0.01);
+		HorasPorDia dia2 = horasPorDia.get(1);
 		
-		HorasPorDia dia2 = horasPorDia.get(0);
-		Assert.assertEquals(8.0, dia2.getHorasNormais(), 0.01);
-		Assert.assertEquals(2.0, dia2.getHorasExtras(), 0.01);
+        Assert.assertEquals(2, relatorio.getHorasPorDia().size());
+        Assert.assertEquals(8.0, dia1.getHorasNormais(), 0.001);
+        Assert.assertEquals(0.0, dia1.getHorasExtras(), 0.001);
+        Assert.assertEquals(data1, dia1.getData());
+
+        Assert.assertEquals(8.0, dia2.getHorasNormais(), 0.001);
+        Assert.assertEquals(2.0, dia2.getHorasExtras(), 0.001);
+        Assert.assertEquals(data2, dia2.getData());
 		
 	}
 

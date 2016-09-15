@@ -22,7 +22,6 @@
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.Result"/>
 <fullyQualifiedTypeName name="br.com.osmar.horas.daos.UsuarioDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.validator.Validator"/>
-<fullyQualifiedTypeName name="br.com.caelum.vraptor.Post"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="br.com.caelum.vraptor.interceptor.IncludeParameters"/>
@@ -42,4 +41,6 @@
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.caelum.vraptor.Post"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

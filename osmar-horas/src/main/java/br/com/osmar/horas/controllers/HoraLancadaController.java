@@ -24,7 +24,8 @@ public class HoraLancadaController {
 
 	// meuDaoParaPersistencia, paraValidacao, controlarResultQueVaiParaUser
 	@Inject // Usando CDI para injeção de dep.
-	public HoraLancadaController(HoraLancadaDAO dao, Validator validator, Result result, UsuarioLogado usuarioLogado) {
+	public HoraLancadaController(HoraLancadaDAO dao, 
+			Validator validator, Result result, UsuarioLogado usuarioLogado) {
 		this.dao = dao;
 		this.validator = validator;
 		this.result = result;
@@ -54,7 +55,8 @@ public class HoraLancadaController {
 	public void relatorioDeHoras() {
 		List<HoraLancada> horas = dao.horasDoUsuario(usuarioLogado.getUsuario());
 		//Por ser muito complexo, vou fazer separado. Pois o usuário pode ter vários registros durante o dia por exemplo
-		new RelatorioHoras(horas);
+		RelatorioHoras relatorioHoras = new RelatorioHoras(horas);
+		result.include("relatorio", relatorioHoras);
 		
 	}
 }
