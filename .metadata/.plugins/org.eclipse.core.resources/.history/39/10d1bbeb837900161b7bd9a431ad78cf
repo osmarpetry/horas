@@ -1,9 +1,0 @@
-public class UsuarioDAO{
-   public void adiciona(Usuario usuario){
-
-   }
-
-   public List<Usuario> lista(){
-
-   }
-}

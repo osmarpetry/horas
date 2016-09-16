@@ -2434,3 +2434,53 @@
 2016-09-16 12:03:16,635 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-09-16 12:03:16,656 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-09-16 12:03:16,670 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:29:51,157 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.osmar:osmar-horas:1.0.0 @ C:\Users\osmar\Documents\workspace\horas\osmar-horas\pom.xml.
+2016-09-16 13:29:54,404 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/main/java
+2016-09-16 13:29:54,405 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /osmar-horas/src/main/resources
+2016-09-16 13:29:54,406 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/test/java
+2016-09-16 13:29:56,546 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2016-09-16 13:29:58,258 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:29:58,267 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-09-16 13:29:58,311 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:29:58,312 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:30:14,617 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-09-16 13:30:15,210 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.osmar:osmar-horas:1.0.0 @ C:\Users\osmar\Documents\workspace\horas\osmar-horas\pom.xml.
+2016-09-16 13:30:16,971 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/main/java
+2016-09-16 13:30:16,972 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /osmar-horas/src/main/resources
+2016-09-16 13:30:16,973 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/test/java
+2016-09-16 13:30:17,681 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for osmar-horas
+2016-09-16 13:30:17,688 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-09-16 13:30:20,066 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:30:20,067 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-09-16 13:30:20,091 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:30:20,091 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:30:20,100 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of osmar-horas
+2016-09-16 13:30:20,107 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for osmar-horas
+2016-09-16 13:30:20,121 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:32:49,717 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:32:49,732 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-09-16 13:32:49,743 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:32:49,743 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:36:28,396 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.osmar:osmar-horas:1.0.0 @ C:\Users\osmar\Documents\workspace\horas\osmar-horas\pom.xml.
+2016-09-16 13:36:30,413 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/main/java
+2016-09-16 13:36:30,413 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /osmar-horas/src/main/resources
+2016-09-16 13:36:30,415 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/test/java
+2016-09-16 13:36:31,777 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2016-09-16 13:36:33,446 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:36:33,460 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-09-16 13:36:33,485 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:36:33,486 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:36:51,108 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-09-16 13:36:51,642 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.osmar:osmar-horas:1.0.0 @ C:\Users\osmar\Documents\workspace\horas\osmar-horas\pom.xml.
+2016-09-16 13:36:52,588 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/main/java
+2016-09-16 13:36:52,589 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /osmar-horas/src/main/resources
+2016-09-16 13:36:52,589 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /osmar-horas/src/test/java
+2016-09-16 13:36:53,346 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for osmar-horas
+2016-09-16 13:36:53,352 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-09-16 13:36:55,308 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:36:55,309 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-09-16 13:36:55,330 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-16 13:36:55,330 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\osmar\Documents\workspace\horas\osmar-horas\src\test\resources
+2016-09-16 13:36:55,335 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of osmar-horas
+2016-09-16 13:36:55,341 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for osmar-horas
+2016-09-16 13:36:55,353 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

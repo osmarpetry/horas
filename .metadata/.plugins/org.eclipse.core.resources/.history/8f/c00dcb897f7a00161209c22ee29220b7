@@ -1,9 +1,0 @@
-package br.com.osmar.horas.modelos;
-
-public class HoraLancadaTest {
-	
-	@Test
-	public void calculaDuracaoQuandoHoraInicialMenorQueHoraFinal(){
-		
-	}
-}

@@ -1,6 +1,0 @@
-package br.com.osmar.horas.controllers;
-
-@Controller
-public class HoraLancada {
-
-}

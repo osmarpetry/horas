@@ -1,5 +1,0 @@
-package br.com.osmar.horas.modelos;
-
-public enum HoraLancadaTest {
-
-}

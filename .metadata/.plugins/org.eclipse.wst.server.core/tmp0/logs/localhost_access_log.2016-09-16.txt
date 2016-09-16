@@ -1,0 +1,9 @@
+127.0.0.1 - - [16/Sep/2016:13:37:25 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:26 -0300] "GET /osmar-horas/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:28 -0300] "GET /osmar-horas/login/form HTTP/1.1" 200 1197
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:50 -0300] "POST /osmar-horas/login/autentica HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:51 -0300] "GET /osmar-horas/usuario/lista HTTP/1.1" 200 1151
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:52 -0300] "GET /osmar-horas/horaLancada/relatorioDeHoras HTTP/1.1" 200 987
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:53 -0300] "GET /osmar-horas/horaLancada/form HTTP/1.1" 200 2003
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:53 -0300] "GET /osmar-horas/horaLancada/lista HTTP/1.1" 200 1051
+0:0:0:0:0:0:0:1 - - [16/Sep/2016:13:37:54 -0300] "GET /osmar-horas/horaLancada/lista HTTP/1.1" 200 1051
