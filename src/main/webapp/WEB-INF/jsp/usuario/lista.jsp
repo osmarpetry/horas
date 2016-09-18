@@ -22,5 +22,5 @@
 		</c:forEach>
 	</tbody>
 </table>
-
+</div>
 <c:import url="/WEB-INF/jsp/footer.jsp" />
