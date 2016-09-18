@@ -26,7 +26,7 @@
 	</div>
 	<osmar:validationMessage name="horaLancada.horaFinal"/>
 	
-    <label for="comentario">Comentário</label>
+    <label for="comentario">Tarefa</label>
     <textarea name="horaLancada.comentario" id="comentario" class="form-control"></textarea>
 
     <input type="submit" value="Cadastrar" class="btn"/>
