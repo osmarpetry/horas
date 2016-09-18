@@ -5,7 +5,6 @@
 <title>Osmar Horas</title>
 <link href="<c:url value='/css/bootstrap.css'/>" rel="stylesheet" />
 <link href="<c:url value='/css/site.css'/>" rel="stylesheet" />
-<link href="<c:url value='/css/site.css'/>" rel="stylesheet" />
 </head>
 <body>
 	<header> </header>
