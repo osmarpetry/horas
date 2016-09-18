@@ -7,6 +7,7 @@ import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.Post;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.interceptor.IncludeParameters;
+import br.com.caelum.vraptor.validator.SimpleMessage;
 import br.com.caelum.vraptor.validator.Validator;
 import br.com.osmar.horas.daos.UsuarioDAO;
 import br.com.osmar.horas.modelos.Usuario;
@@ -36,8 +37,12 @@ public class UsuarioController {
 	@Post
 	public void adiciona(@Valid Usuario usuario) {
 		validator.onErrorRedirectTo(this).form();
-		usuarioDAO.adiciona(usuario);
-		result.redirectTo(this).lista();
+		try {
+			usuarioDAO.adiciona(usuario);
+			result.redirectTo(this).lista();
+		} catch (Exception e) {
+			validator.add(new SimpleMessage("usuario_invalido", "Login já existente"));
+			validator.onErrorUsePageOf(this).form();		}
 	}
 
 	public void lista() {

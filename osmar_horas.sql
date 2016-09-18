@@ -87,7 +87,8 @@ CREATE TABLE `usuario` (
   `login` varchar(255) NOT NULL,
   `nome` varchar(255) NOT NULL,
   `senha` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `login_UNIQUE` (`login`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
