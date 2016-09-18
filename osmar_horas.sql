@@ -34,7 +34,7 @@ CREATE TABLE `horalancada` (
   PRIMARY KEY (`id`),
   KEY `FK_9ur6u10ue6nkun8ymwl27hu32` (`usuario_id`),
   CONSTRAINT `FK_9ur6u10ue6nkun8ymwl27hu32` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,8 +43,35 @@ CREATE TABLE `horalancada` (
 
 LOCK TABLES `horalancada` WRITE;
 /*!40000 ALTER TABLE `horalancada` DISABLE KEYS */;
-INSERT INTO `horalancada` VALUES (1,'Teste','1997-02-01','02:01','01:01',1),(2,'Teste de novo','1997-02-01','23:00','01:00',1);
+INSERT INTO `horalancada` VALUES (1,'Teste','1997-02-01','02:01','01:01',1),(2,'Teste de novo','1997-02-01','23:00','01:00',1),(3,'Atividade Whatever','1997-02-01','02:01','01:01',1),(4,'Teste legal de mais','1997-01-01','02:01','01:01',2);
 /*!40000 ALTER TABLE `horalancada` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tarefalancada`
+--
+
+DROP TABLE IF EXISTS `tarefalancada`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tarefalancada` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tarefa` varchar(255) DEFAULT NULL,
+  `usuario_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_gk8vp0i2mt0ak7cg1f6vdv8dj` (`usuario_id`),
+  CONSTRAINT `FK_gk8vp0i2mt0ak7cg1f6vdv8dj` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tarefalancada`
+--
+
+LOCK TABLES `tarefalancada` WRITE;
+/*!40000 ALTER TABLE `tarefalancada` DISABLE KEYS */;
+INSERT INTO `tarefalancada` VALUES (1,'hahah',1),(2,'teste',1);
+/*!40000 ALTER TABLE `tarefalancada` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -61,7 +88,7 @@ CREATE TABLE `usuario` (
   `nome` varchar(255) NOT NULL,
   `senha` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -70,7 +97,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'osmar@gmail.com','osmar','osmar','osmar');
+INSERT INTO `usuario` VALUES (1,'osmar@gmail.com','osmar','osmar','osmar'),(2,'rafael@g.com','rafael','rafael','rafael');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -83,4 +110,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-18  0:20:11
+-- Dump completed on 2016-09-18 15:43:27
