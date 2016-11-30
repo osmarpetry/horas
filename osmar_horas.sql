@@ -78,10 +78,10 @@ UNLOCK TABLES;
 -- Table structure for table `usuario`
 --
 
-DROP TABLE IF EXISTS `usuario`;
+DROP TABLE IF EXISTS `Usuario`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `usuario` (
+CREATE TABLE `Usuario` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL,
   `login` varchar(255) NOT NULL,
@@ -96,9 +96,9 @@ CREATE TABLE `usuario` (
 -- Dumping data for table `usuario`
 --
 
-LOCK TABLES `usuario` WRITE;
+LOCK TABLES `Usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'osmar@gmail.com','osmar','osmar','osmar'),(2,'rafael@g.com','rafael','rafael','rafael');
+INSERT INTO `Usuario` VALUES (1,'osmar@gmail.com','osmar','osmar','osmar'),(2,'rafael@g.com','rafael','rafael','rafael');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
